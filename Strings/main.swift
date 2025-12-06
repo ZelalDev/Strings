@@ -7,11 +7,14 @@
 
 import Foundation
 
-//create an array of strings, then write some code that prints the number of items in the array and also the number of unique items in the array.
-
+// An array of strings containing duplicate items
 let strings = ["BMW", "Mercedes", "Toyota", "BMW", "Fiat", "Honda", "Toyota", "Ford", "BMW"]
 
-print(strings.count)
+// 1. Print total number of items (includes duplicates)
+print("Total items: \(strings.count)")
+
+// 2. Create a Set from the Array to remove duplicates
 let uniqeStrings = Set(strings)
 
-print(uniqeStrings.count)
+// 3. Print the count of unique items
+print("Unique items: \(uniqeStrings.count)")
