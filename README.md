@@ -24,3 +24,7 @@ let uniqueStrings = Set(strings)
 
 // 3. Print the count of unique items
 print("Unique items: \(uniqueStrings.count)")
+```
+
+##  
+"This repository serves as a journal of my Swift and SwiftUI learning journey. It documents my step-by-step progress and growth as part of the '100 Days of SwiftUI' challenge."
